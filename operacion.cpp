@@ -67,3 +67,22 @@ QString Operacion::toString()
     return temp;
 }
 
+Fraccion Operacion::getOperando1()
+{
+    return this->operando1;
+}
+
+Fraccion Operacion::getOperando2()
+{
+    return this->operando2;
+}
+
+char Operacion::getOperador()
+{
+    return this->operador;
+}
+
+Fraccion Operacion::getResultado()
+{
+    return this->resultado;
+}
